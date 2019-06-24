@@ -44,7 +44,7 @@ const Index = ({ data }) => (
         <Title as="h1" size="large">
           {data.homeJson.contact.childMarkdownRemark.rawMarkdownBody}
         </Title>
-        <Button>Book now</Button>
+        <Button link="mailto:info@untouched.studio">Book now</Button>
       </Box>
 
       <Box section="location">
